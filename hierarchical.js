@@ -77,7 +77,7 @@ let bkgdMat = new THREE.MeshLambertMaterial({ map: bkgdTex });
 
 //by the time I realized that I could make a function that made each planet I had already created everything, scaled it and placed it
 //loadOBJ('objs/name.obj', material, 'name', year, day, scale);
-loadOBJ('objs/Rachael_scan.obj', material, 'rachael',1, 1,1.5 );
+loadOBJ('objs/rachael-reduced.obj', material, 'rachael',1, 1,1.5 );
 loadOBJ('objs/haloWO.obj',haloMat, 'halo', 1,1,1.4);
 loadOBJ('objs/satellite.obj', material, 'satellite',1, 1,0.07);
 // loadOBJ('objs/sphere.obj', earthMat, 'earth',1,1, 0.2);
